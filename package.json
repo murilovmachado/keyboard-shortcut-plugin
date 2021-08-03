@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "flex-plugin pre-script-check",
-    "prepare":"flex-plugin build"
+    "prepare": "SKIP_PREFLIGHT_CHECK=true flex-plugin build"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.3",
